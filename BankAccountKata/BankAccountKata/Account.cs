@@ -16,9 +16,9 @@ namespace BankAccountKata
             _securitySafe.Add(money.Amount);
         }
 
-        public void Withdraw(int i, DateTime parse)
+        public void Withdraw(Money money, DateTime parse)
         {
-            throw new NotImplementedException();
+            _securitySafe.Take(money.Amount);
         }
 
         public string PrintStatement()

@@ -13,12 +13,12 @@ namespace BankAccountKata
 
         public void Deposit(Money money, DateTime parse)
         {
-            _securitySafe.Add(money.Amount);
+            _securitySafe.Add(money);
         }
 
         public void Withdraw(Money money, DateTime parse)
         {
-            _securitySafe.Take(money.Amount);
+            _securitySafe.Take(money);
         }
 
         public string PrintStatement()

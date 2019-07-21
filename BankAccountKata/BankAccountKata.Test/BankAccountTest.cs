@@ -25,11 +25,11 @@ namespace BankAccountKata.Test
 
     public class SecuritySafe : ISecuritySafe
     {
-        public void Add(int amount)
+        public void Add(Money money)
         {
         }
 
-        public void Take(int amount)
+        public void Take(Money money)
         {
             
         }

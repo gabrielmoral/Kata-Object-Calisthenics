@@ -16,7 +16,7 @@ namespace BankAccountKata.Test
 
             account.Deposit(new Money(1000), DateTime.Parse("10-01-2012"));
 
-            A.CallTo(() => securitySafe.Add(1000)).MustHaveHappened();
+            A.CallTo(() => securitySafe.Add(new Money(1000))).MustHaveHappened();
         }
         
         [Test]
@@ -28,7 +28,7 @@ namespace BankAccountKata.Test
 
             account.Withdraw(new Money(1000), DateTime.Parse("10-01-2012"));
 
-            A.CallTo(() => securitySafe.Take(1000)).MustHaveHappened();
+            A.CallTo(() => securitySafe.Take(new Money(1000))).MustHaveHappened();
         }
     }
 }

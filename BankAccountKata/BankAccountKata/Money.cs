@@ -2,11 +2,17 @@ namespace BankAccountKata
 {
     public class Money
     {
+        private int _amount;
+
         public Money(int amount)
         {
-            Amount = amount;
+            _amount = amount;
         }
-
-        public int Amount { get; private set; }
+        
+        public override bool Equals(object obj)
+        {
+            var money = (Money) obj;
+            return money._amount == _amount;
+        }
     }
 }

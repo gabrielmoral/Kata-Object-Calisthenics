@@ -1,5 +1,6 @@
 ﻿using System;
 using FakeItEasy;
+using FakeItEasy.Sdk;
 using NFluent;
 using NUnit.Framework;
 
@@ -15,9 +16,10 @@ namespace BankAccountKata.Test
 
             var account = new Account(securitySafe, statementPrinter);
 
-            account.Deposit(new Money(1000), DateTime.Parse("10-01-2012"));
+            var deposit = CreateDeposit();
+            account.Deposit(deposit);
 
-            A.CallTo(() => securitySafe.Add(new Money(1000))).MustHaveHappened();
+            A.CallTo(() => securitySafe.Add(deposit)).MustHaveHappened();
         }
         
         [Test]
@@ -53,15 +55,25 @@ namespace BankAccountKata.Test
             var statementPrinter = new Fake<IStatementPrinter>().FakedObject;
             
             var account = new Account(securitySafe, statementPrinter);
-            account.Deposit(new Money(1000), DateTime.Parse("10-01-2012"));
+            var deposit = CreateDeposit();
+            account.Deposit(deposit);
 
             account.PrintStatement();
 
+            A.CallTo(() => statementPrinter.Print(StatementListWith(deposit)))
+                .MustHaveHappened();
+        }
+
+        private static StatementList StatementListWith(Deposit deposit)
+        {
             var statementListWithDeposit = new StatementList();
-            statementListWithDeposit.Add(new Deposit(new Money(1000), DateTime.Parse("10-01-2012")));
-            
-            A.CallTo(() => statementPrinter.Print(A<StatementList>.That.IsEqualTo(
-                statementListWithDeposit))).MustHaveHappened();
+            statementListWithDeposit.Add(deposit);
+            return statementListWithDeposit;
+        }
+
+        private static Deposit CreateDeposit()
+        {
+            return new Deposit(new Money(1000), DateTime.Parse("10-01-2012"));
         }
     }
 }

@@ -15,10 +15,10 @@ namespace BankAccountKata
             _statementList = new StatementList();
         }
 
-        public void Deposit(Money money, DateTime parse)
+        public void Deposit(Deposit deposit)
         {
-            _securitySafe.Add(money);
-            _statementList.Add(new Deposit(money, parse));
+            _securitySafe.Add(deposit);
+            _statementList.Add(deposit);
         }
 
         public void Withdraw(Money money, DateTime parse)

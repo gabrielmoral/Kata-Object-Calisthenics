@@ -10,8 +10,8 @@ namespace BankAccountKata.Test
         public void CanDeposeAndWithdrawMoneyOnMyAccount()
         {
             var account = new Account(new SecuritySafe(), new StatementPrinter());
-            account.Deposit(new Money(1000), DateTime.Parse("10-01-2012"));
-            account.Deposit(new Money(1000), DateTime.Parse("13-01-2012"));
+            account.Deposit(new Deposit(new Money(1000), DateTime.Parse("10-01-2012")));
+            account.Deposit(new Deposit(new Money(1000), DateTime.Parse("13-01-2012")));
             account.Withdraw(new Money(200), DateTime.Parse("14-01-2012"));
             
             var printStatement = account.PrintStatement();
@@ -33,7 +33,7 @@ namespace BankAccountKata.Test
 
     public class SecuritySafe : ISecuritySafe
     {
-        public void Add(Money money)
+        public void Add(Deposit deposit)
         {
         }
 

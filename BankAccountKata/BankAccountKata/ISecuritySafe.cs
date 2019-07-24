@@ -2,7 +2,7 @@ namespace BankAccountKata
 {
     public interface ISecuritySafe
     {
-        void Add(Money money);
+        void Add(Deposit deposit);
         void Take(Money money);
     }
 }

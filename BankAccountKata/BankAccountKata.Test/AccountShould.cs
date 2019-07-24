@@ -43,7 +43,25 @@ namespace BankAccountKata.Test
 
             account.PrintStatement();
             
-            A.CallTo(() => statementPrinter.Print(A<StatementList>._)).MustHaveHappened();
+            A.CallTo(() => statementPrinter.Print(new StatementList())).MustHaveHappened();
+        }
+        
+        [Test]
+        public void PrintStatementWithDeposit()
+        {
+            var securitySafe = new Fake<ISecuritySafe>().FakedObject;
+            var statementPrinter = new Fake<IStatementPrinter>().FakedObject;
+            
+            var account = new Account(securitySafe, statementPrinter);
+            account.Deposit(new Money(1000), DateTime.Parse("10-01-2012"));
+
+            account.PrintStatement();
+
+            var statementListWithDeposit = new StatementList();
+            statementListWithDeposit.Add(new Deposit(new Money(1000), DateTime.Parse("10-01-2012")));
+            
+            A.CallTo(() => statementPrinter.Print(A<StatementList>.That.IsEqualTo(
+                statementListWithDeposit))).MustHaveHappened();
         }
     }
 }

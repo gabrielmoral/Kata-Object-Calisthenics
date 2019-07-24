@@ -7,11 +7,14 @@
       <e p="BankAccountKata" t="IncludeRecursive">
         <e p="Account.cs" t="Include" />
         <e p="BankAccountKata.csproj" t="IncludeRecursive" />
+        <e p="Deposit.cs" t="Include" />
         <e p="ISecuritySafe.cs" t="Include" />
+        <e p="IStatementPrinter.cs" t="Include" />
         <e p="Money.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="AssemblyInfo.cs" t="Include" />
         </e>
+        <e p="StatementList.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive" />
         <e p="packages.config" t="Include" />

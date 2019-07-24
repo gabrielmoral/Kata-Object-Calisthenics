@@ -6,16 +6,19 @@ namespace BankAccountKata
     {
         private readonly ISecuritySafe _securitySafe;
         private readonly IStatementPrinter _statementPrinter;
+        private readonly StatementList _statementList;
 
         public Account(ISecuritySafe securitySafe, IStatementPrinter statementPrinter)
         {
             _securitySafe = securitySafe;
             _statementPrinter = statementPrinter;
+            _statementList = new StatementList();
         }
 
         public void Deposit(Money money, DateTime parse)
         {
             _securitySafe.Add(money);
+            _statementList.Add(new Deposit(money, parse));
         }
 
         public void Withdraw(Money money, DateTime parse)
@@ -25,7 +28,7 @@ namespace BankAccountKata
 
         public string PrintStatement()
         {
-            return _statementPrinter.Print(new StatementList());
+            return _statementPrinter.Print(_statementList);
         }
     }
 }

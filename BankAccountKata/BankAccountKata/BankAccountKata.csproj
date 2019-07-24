@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Account.cs" />
+    <Compile Include="Deposit.cs" />
     <Compile Include="IStatementPrinter.cs" />
     <Compile Include="Money.cs" />
     <Compile Include="ISecuritySafe.cs" />

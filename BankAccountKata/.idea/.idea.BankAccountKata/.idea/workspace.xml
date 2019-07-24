@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c871815e-060e-4db0-ae89-0eeabe467471" name="Default Changelist" comment="">
+    <list default="true" id="502b19d3-8eb1-4182-8e4c-8ef85f86338d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BankAccountKata/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/BankAccountKata.Test/AccountShould.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccountKata.Test/AccountShould.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BankAccountKata.Test/BankAccountTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccountKata.Test/BankAccountTest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BankAccountKata/Account.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccountKata/Account.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankAccountKata/ISecuritySafe.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccountKata/ISecuritySafe.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankAccountKata/BankAccountKata.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccountKata/BankAccountKata.csproj" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,16 +19,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BankAccountKata.Test/BankAccountTest.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+            <state relative-caret-position="280">
+              <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
               <folding>
-                <marker date="1563725819468" expanded="true" signature="6:51" ph="..." />
-                <marker date="1563725819468" expanded="true" signature="83:1154" ph="{...}" />
-                <marker date="1563725819468" expanded="true" signature="118:966" ph="{...}" />
-                <marker date="1563725819468" expanded="true" signature="198:960" ph="{...}" />
-                <marker date="1563725819468" expanded="true" signature="1013:1152" ph="{...}" />
-                <marker date="1563725819468" expanded="true" signature="1055:1075" ph="{...}" />
-                <marker date="1563725819468" expanded="true" signature="1113:1146" ph="{...}" />
+                <marker date="1563995144307" expanded="true" signature="6:51" ph="..." />
+                <marker date="1563995144307" expanded="true" signature="83:1368" ph="{...}" />
+                <marker date="1563995144307" expanded="true" signature="118:1001" ph="{...}" />
+                <marker date="1563995144307" expanded="true" signature="198:995" ph="{...}" />
+                <marker date="1563995144307" expanded="true" signature="1056:1178" ph="{...}" />
+                <marker date="1563995144307" expanded="true" signature="1119:1172" ph="{...}" />
+                <marker date="1563995144307" expanded="true" signature="1225:1366" ph="{...}" />
+                <marker date="1563995144307" expanded="true" signature="1268:1288" ph="{...}" />
+                <marker date="1563995144307" expanded="true" signature="1327:1360" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -36,28 +39,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BankAccountKata/Money.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="308">
+              <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
               <folding>
-                <marker date="1563725535514" expanded="true" signature="25:195" ph="{...}" />
-                <marker date="1563725535514" expanded="true" signature="50:193" ph="{...}" />
-                <marker date="1563725535514" expanded="true" signature="89:138" ph="{...}" />
+                <marker date="1563726293827" expanded="true" signature="25:336" ph="{...}" />
+                <marker date="1563726293827" expanded="true" signature="50:334" ph="{...}" />
+                <marker date="1563726293827" expanded="true" signature="119:169" ph="{...}" />
+                <marker date="1563726293827" expanded="true" signature="226:328" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BankAccountKata.Test/AccountShould.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="280">
-              <caret line="30" column="44" lean-forward="true" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+              <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
               <folding>
-                <marker date="1563725789605" expanded="false" signature="6:69" ph="..." />
-                <marker date="1563725789605" expanded="true" signature="101:835" ph="{...}" />
-                <marker date="1563725789605" expanded="true" signature="134:833" ph="{...}" />
-                <marker date="1563725789605" expanded="true" signature="190:483" ph="{...}" />
-                <marker date="1563725789605" expanded="true" signature="543:827" ph="{...}" />
+                <marker date="1563995173123" expanded="false" signature="6:69" ph="..." />
+                <marker date="1563995173123" expanded="true" signature="101:1516" ph="{...}" />
+                <marker date="1563995173123" expanded="true" signature="134:1514" ph="{...}" />
+                <marker date="1563995173123" expanded="true" signature="190:590" ph="{...}" />
+                <marker date="1563995173123" expanded="true" signature="650:1052" ph="{...}" />
+                <marker date="1563995173123" expanded="true" signature="1113:1508" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -67,27 +72,27 @@
         <entry file="file://$PROJECT_DIR$/BankAccountKata/ISecuritySafe.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
               <folding>
-                <marker date="1563725801612" expanded="true" signature="25:137" ph="{...}" />
-                <marker date="1563725801612" expanded="true" signature="62:135" ph="{...}" />
+                <marker date="1563726313252" expanded="true" signature="25:139" ph="{...}" />
+                <marker date="1563726313252" expanded="true" signature="62:137" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BankAccountKata/Account.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+            <state relative-caret-position="258">
+              <caret line="27" column="64" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
               <folding>
-                <marker date="1563725863975" expanded="true" signature="40:599" ph="{...}" />
-                <marker date="1563725863975" expanded="true" signature="67:597" ph="{...}" />
-                <marker date="1563725863975" expanded="true" signature="179:241" ph="{...}" />
-                <marker date="1563725863975" expanded="true" signature="299:364" ph="{...}" />
-                <marker date="1563725863975" expanded="true" signature="422:482" ph="{...}" />
-                <marker date="1563725863975" expanded="true" signature="522:591" ph="{...}" />
+                <marker date="1563995053227" expanded="true" signature="40:756" ph="{...}" />
+                <marker date="1563995053227" expanded="true" signature="67:754" ph="{...}" />
+                <marker date="1563995053227" expanded="true" signature="277:389" ph="{...}" />
+                <marker date="1563995053227" expanded="true" signature="447:505" ph="{...}" />
+                <marker date="1563995053227" expanded="true" signature="564:623" ph="{...}" />
+                <marker date="1563995053227" expanded="true" signature="663:748" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -100,9 +105,6 @@
       </file>
     </leaf>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/BankAccountKata.Test/BankAccountTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BankAccountKata.Test/packages.config" root0="FORCE_HIGHLIGHTING" />
@@ -111,32 +113,6 @@
     <setting file="file://$PROJECT_DIR$/BankAccountKata.Test/AccountShould.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BankAccountKata/Money.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BankAccountKata/packages.config" root0="FORCE_HIGHLIGHTING" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/BankAccountKata.Test/AccountTest.cs" />
-        <option value="$PROJECT_DIR$/BankAccountKata/Money.cs" />
-        <option value="$PROJECT_DIR$/BankAccountKata.Test/AccountShould.cs" />
-        <option value="$PROJECT_DIR$/BankAccountKata/ISecuritySafe.cs" />
-        <option value="$PROJECT_DIR$/BankAccountKata.Test/BankAccountTest.cs" />
-        <option value="$PROJECT_DIR$/BankAccountKata/Account.cs" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/.idea.BankAccountKata/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/.idea.BankAccountKata/.idea/indexLayout.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="53" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -172,14 +148,6 @@
       </pane>
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
-    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -196,27 +164,10 @@
     <configuration />
   </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="c871815e-060e-4db0-ae89-0eeabe467471" name="Default Changelist" comment="" />
-      <created>1563723082313</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1563723082313</updated>
-      <workItem from="1563723084857" duration="2778000" />
-    </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2778000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="1000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
@@ -247,102 +198,6 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
-  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
-          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
-          <option name="timeStamp" value="1" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BankAccountKata.Test/packages.config">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BankAccountKata/packages.config">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BankAccountKata.Test/Account.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BankAccountKata/Money.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding>
-            <marker date="1563725535514" expanded="true" signature="25:195" ph="{...}" />
-            <marker date="1563725535514" expanded="true" signature="50:193" ph="{...}" />
-            <marker date="1563725535514" expanded="true" signature="89:138" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BankAccountKata.Test/BankAccountTest.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
-          <folding>
-            <marker date="1563725819468" expanded="true" signature="6:51" ph="..." />
-            <marker date="1563725819468" expanded="true" signature="83:1154" ph="{...}" />
-            <marker date="1563725819468" expanded="true" signature="118:966" ph="{...}" />
-            <marker date="1563725819468" expanded="true" signature="198:960" ph="{...}" />
-            <marker date="1563725819468" expanded="true" signature="1013:1152" ph="{...}" />
-            <marker date="1563725819468" expanded="true" signature="1055:1075" ph="{...}" />
-            <marker date="1563725819468" expanded="true" signature="1113:1146" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BankAccountKata.Test/AccountShould.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="30" column="44" lean-forward="true" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
-          <folding>
-            <marker date="1563725789605" expanded="false" signature="6:69" ph="..." />
-            <marker date="1563725789605" expanded="true" signature="101:835" ph="{...}" />
-            <marker date="1563725789605" expanded="true" signature="134:833" ph="{...}" />
-            <marker date="1563725789605" expanded="true" signature="190:483" ph="{...}" />
-            <marker date="1563725789605" expanded="true" signature="543:827" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BankAccountKata/ISecuritySafe.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          <folding>
-            <marker date="1563725801612" expanded="true" signature="25:137" ph="{...}" />
-            <marker date="1563725801612" expanded="true" signature="62:135" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BankAccountKata/Account.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-          <folding>
-            <marker date="1563725863975" expanded="true" signature="40:599" ph="{...}" />
-            <marker date="1563725863975" expanded="true" signature="67:597" ph="{...}" />
-            <marker date="1563725863975" expanded="true" signature="179:241" ph="{...}" />
-            <marker date="1563725863975" expanded="true" signature="299:364" ph="{...}" />
-            <marker date="1563725863975" expanded="true" signature="422:482" ph="{...}" />
-            <marker date="1563725863975" expanded="true" signature="522:591" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
 </project>

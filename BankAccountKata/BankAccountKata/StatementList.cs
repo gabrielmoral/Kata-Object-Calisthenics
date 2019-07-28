@@ -12,6 +12,17 @@ namespace BankAccountKata
             _statements.Add(statement);
         }
 
+        public IEnumerable<IStatement> Statements
+        {
+            get 
+            {
+                foreach (var statement in _statements)
+                {
+                    yield return statement;
+                }
+            }
+        }
+
         public override bool Equals(object obj)
         {
             var list = (StatementList) obj;

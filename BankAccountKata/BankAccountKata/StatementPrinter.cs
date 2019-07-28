@@ -4,9 +4,16 @@ namespace BankAccountKata
     {
         public string Print(StatementList statementList)
         {
-            const string accountHeader = "Date||Credit||Debit||Balance\n";
+            const string statementHeader = "Date||Credit||Debit||Balance\n";
             
-            return accountHeader;
+            var textStatement = statementHeader;
+
+            foreach (var statement in statementList.Statements)
+            {
+                textStatement += statement.ToString();
+            }
+            
+            return textStatement;
         }
     }
 }

@@ -23,5 +23,10 @@ namespace BankAccountKata
 
             return deposit._money.Equals(_money) && deposit._when.Equals(_when);
         }
+
+        public override string ToString()
+        {
+            return $"{_when:d}||||{_money.ToString()}||{_money.ToString()}\n";
+        }
     }
 }

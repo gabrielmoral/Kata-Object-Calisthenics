@@ -3,6 +3,6 @@ namespace BankAccountKata
     public interface ISecuritySafe
     {
         void Add(Deposit deposit);
-        void Take(Money money);
+        void Take(Withdrawal withdrawal);
     }
 }

@@ -21,9 +21,10 @@ namespace BankAccountKata
             _statementList.Add(deposit);
         }
 
-        public void Withdraw(Money money, DateTime parse)
+        public void Withdraw(Withdrawal withdrawal)
         {
-            _securitySafe.Take(money);
+            _securitySafe.Take(withdrawal);
+            _statementList.Add(withdrawal);
         }
 
         public string PrintStatement()

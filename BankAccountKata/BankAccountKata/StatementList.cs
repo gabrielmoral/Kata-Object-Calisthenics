@@ -5,11 +5,11 @@ namespace BankAccountKata
 {
     public class StatementList
     {
-        private List<Deposit> _statements = new List<Deposit>();
+        private List<IStatement> _statements = new List<IStatement>();
 
-        public void Add(Deposit deposit)
+        public void Add(IStatement statement)
         {
-            _statements.Add(deposit);
+            _statements.Add(statement);
         }
 
         public override bool Equals(object obj)

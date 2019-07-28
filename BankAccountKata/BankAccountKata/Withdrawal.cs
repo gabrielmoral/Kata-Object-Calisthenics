@@ -2,16 +2,12 @@ using System;
 
 namespace BankAccountKata
 {
-    public interface IStatement
-    {
-    }
-
-    public class Deposit : IStatement
+    public class Withdrawal : IStatement
     {
         private readonly Money _money;
         private readonly DateTime _when;
 
-        public Deposit(Money money, DateTime when)
+        public Withdrawal(Money money, DateTime when)
         {
             _money = money;
             _when = when;
@@ -19,9 +15,9 @@ namespace BankAccountKata
 
         public override bool Equals(object obj)
         {
-            var deposit = (Deposit) obj;
+            var withdrawal = (Withdrawal) obj;
 
-            return deposit._money.Equals(_money) && deposit._when.Equals(_when);
+            return withdrawal._money.Equals(_money) && withdrawal._when.Equals(_when);
         }
     }
 }

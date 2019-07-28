@@ -30,9 +30,10 @@ namespace BankAccountKata.Test
 
             var account = new Account(securitySafe, statementPrinter);
 
-            account.Withdraw(new Money(1000), DateTime.Parse("10-01-2012"));
+            var withdrawal = CreateWithdrawal();
+            account.Withdraw(withdrawal);
 
-            A.CallTo(() => securitySafe.Take(new Money(1000))).MustHaveHappened();
+            A.CallTo(() => securitySafe.Take(withdrawal)).MustHaveHappened();
         }
         
         [Test]
@@ -63,17 +64,38 @@ namespace BankAccountKata.Test
             A.CallTo(() => statementPrinter.Print(StatementListWith(deposit)))
                 .MustHaveHappened();
         }
-
-        private static StatementList StatementListWith(Deposit deposit)
+        
+        [Test]
+        public void PrintStatementWithWithdrawal()
         {
-            var statementListWithDeposit = new StatementList();
-            statementListWithDeposit.Add(deposit);
-            return statementListWithDeposit;
+            var securitySafe = new Fake<ISecuritySafe>().FakedObject;
+            var statementPrinter = new Fake<IStatementPrinter>().FakedObject;
+            
+            var account = new Account(securitySafe, statementPrinter);
+            var withdrawal = CreateWithdrawal();
+            account.Withdraw(withdrawal);
+
+            account.PrintStatement();
+
+            A.CallTo(() => statementPrinter.Print(StatementListWith(withdrawal)))
+                .MustHaveHappened();
+        }
+
+        private static StatementList StatementListWith(IStatement statement)
+        {
+            var statementList = new StatementList();
+            statementList.Add(statement);
+            return statementList;
         }
 
         private static Deposit CreateDeposit()
         {
             return new Deposit(new Money(1000), DateTime.Parse("10-01-2012"));
+        }
+        
+        private static Withdrawal CreateWithdrawal()
+        {
+            return new Withdrawal(new Money(1000), DateTime.Parse("10-01-2012"));
         }
     }
 }

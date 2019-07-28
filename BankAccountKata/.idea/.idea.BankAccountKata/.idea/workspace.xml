@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="502b19d3-8eb1-4182-8e4c-8ef85f86338d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/BankAccountKata.Test/AccountShould.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccountKata.Test/AccountShould.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankAccountKata.Test/BankAccountKata.Test.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccountKata.Test/BankAccountKata.Test.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BankAccountKata.Test/BankAccountTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccountKata.Test/BankAccountTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankAccountKata/Account.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccountKata/Account.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BankAccountKata/BankAccountKata.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccountKata/BankAccountKata.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankAccountKata/Deposit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccountKata/Deposit.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankAccountKata/ISecuritySafe.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccountKata/ISecuritySafe.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankAccountKata/StatementList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccountKata/StatementList.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,37 +14,22 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BankAccountKata/Money.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-              <folding>
-                <marker date="1563726293827" expanded="true" signature="25:336" ph="{...}" />
-                <marker date="1563726293827" expanded="true" signature="50:334" ph="{...}" />
-                <marker date="1563726293827" expanded="true" signature="119:169" ph="{...}" />
-                <marker date="1563726293827" expanded="true" signature="226:328" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BankAccountKata.Test/AccountShould.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-732">
-              <caret line="32" column="26" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="26" />
+            <state relative-caret-position="148">
+              <caret line="97" column="30" lean-forward="true" selection-start-line="97" selection-start-column="30" selection-end-line="97" selection-end-column="30" />
               <folding>
-                <marker date="1564328060026" expanded="false" signature="6:91" ph="..." />
-                <marker date="1564328060026" expanded="true" signature="123:3218" ph="{...}" />
-                <marker date="1564328060026" expanded="true" signature="156:3216" ph="{...}" />
-                <marker date="1564328060026" expanded="true" signature="212:609" ph="{...}" />
-                <marker date="1564328060026" expanded="true" signature="669:1080" ph="{...}" />
-                <marker date="1564328060026" expanded="true" signature="1141:1537" ph="{...}" />
-                <marker date="1564328060026" expanded="true" signature="1609:2098" ph="{...}" />
-                <marker date="1564328060026" expanded="true" signature="2173:2675" ph="{...}" />
-                <marker date="1564328060026" expanded="true" signature="2751:2899" ph="{...}" />
-                <marker date="1564328060026" expanded="true" signature="2947:3046" ph="{...}" />
-                <marker date="1564328060026" expanded="true" signature="3108:3210" ph="{...}" />
+                <marker date="1564328250790" expanded="false" signature="6:91" ph="..." />
+                <marker date="1564328250790" expanded="true" signature="123:3221" ph="{...}" />
+                <marker date="1564328250790" expanded="true" signature="156:3219" ph="{...}" />
+                <marker date="1564328250790" expanded="true" signature="212:609" ph="{...}" />
+                <marker date="1564328250790" expanded="true" signature="669:1080" ph="{...}" />
+                <marker date="1564328250790" expanded="true" signature="1141:1537" ph="{...}" />
+                <marker date="1564328250790" expanded="true" signature="1609:2098" ph="{...}" />
+                <marker date="1564328250790" expanded="true" signature="2173:2675" ph="{...}" />
+                <marker date="1564328250790" expanded="true" signature="2753:2902" ph="{...}" />
+                <marker date="1564328250790" expanded="true" signature="2950:3049" ph="{...}" />
+                <marker date="1564328250790" expanded="true" signature="3111:3213" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -60,10 +41,10 @@
             <state relative-caret-position="100">
               <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
               <folding>
-                <marker date="1564327973592" expanded="true" signature="40:509" ph="{...}" />
-                <marker date="1564327973592" expanded="true" signature="82:507" ph="{...}" />
-                <marker date="1564327973592" expanded="true" signature="223:297" ph="{...}" />
-                <marker date="1564327973592" expanded="true" signature="346:501" ph="{...}" />
+                <marker date="1564328250770" expanded="true" signature="40:510" ph="{...}" />
+                <marker date="1564328250770" expanded="true" signature="83:508" ph="{...}" />
+                <marker date="1564328250770" expanded="true" signature="224:298" ph="{...}" />
+                <marker date="1564328250770" expanded="true" signature="347:502" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -85,18 +66,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BankAccountKata.Test/BankAccountTest.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="89" selection-start-line="14" selection-start-column="89" selection-end-line="14" selection-end-column="89" />
+            <state relative-caret-position="95">
+              <caret line="17" column="98" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="98" />
               <folding>
-                <marker date="1564328028539" expanded="true" signature="6:51" ph="..." />
-                <marker date="1564328028539" expanded="true" signature="83:1424" ph="{...}" />
-                <marker date="1564328028539" expanded="true" signature="118:1043" ph="{...}" />
-                <marker date="1564328028539" expanded="true" signature="198:1037" ph="{...}" />
-                <marker date="1564328028539" expanded="true" signature="1098:1220" ph="{...}" />
-                <marker date="1564328028539" expanded="true" signature="1161:1214" ph="{...}" />
-                <marker date="1564328028539" expanded="true" signature="1267:1422" ph="{...}" />
-                <marker date="1564328028539" expanded="true" signature="1314:1334" ph="{...}" />
-                <marker date="1564328028539" expanded="true" signature="1383:1416" ph="{...}" />
+                <marker date="1564328333363" expanded="true" signature="6:51" ph="..." />
+                <marker date="1564328333363" expanded="true" signature="83:1247" ph="{...}" />
+                <marker date="1564328333363" expanded="true" signature="118:1043" ph="{...}" />
+                <marker date="1564328333363" expanded="true" signature="198:1037" ph="{...}" />
+                <marker date="1564328333363" expanded="true" signature="1090:1245" ph="{...}" />
+                <marker date="1564328333363" expanded="true" signature="1137:1157" ph="{...}" />
+                <marker date="1564328333363" expanded="true" signature="1206:1239" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BankAccountKata.Test/StatementPrinterShould.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="45" lean-forward="true" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+              <folding>
+                <marker date="1564328600572" expanded="true" signature="54:406" ph="{...}" />
+                <marker date="1564328600572" expanded="true" signature="96:404" ph="{...}" />
+                <marker date="1564328600572" expanded="true" signature="171:398" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BankAccountKata/StatementPrinter.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+              <folding>
+                <marker date="1564328675830" expanded="true" signature="25:294" ph="{...}" />
+                <marker date="1564328675830" expanded="true" signature="81:292" ph="{...}" />
+                <marker date="1564328675830" expanded="true" signature="144:286" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -115,7 +122,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BankAccountKata/Account.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
@@ -135,14 +142,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BankAccountKata/StatementList.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+            <state relative-caret-position="384">
+              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
               <folding>
-                <marker date="1564327509675" expanded="true" signature="6:52" ph="..." />
-                <marker date="1564327509675" expanded="true" signature="79:473" ph="{...}" />
-                <marker date="1564327509675" expanded="true" signature="112:471" ph="{...}" />
-                <marker date="1564327509675" expanded="true" signature="231:289" ph="{...}" />
-                <marker date="1564327509675" expanded="true" signature="338:465" ph="{...}" />
+                <marker date="1564328259674" expanded="true" signature="6:52" ph="..." />
+                <marker date="1564328259674" expanded="true" signature="79:482" ph="{...}" />
+                <marker date="1564328259674" expanded="true" signature="112:480" ph="{...}" />
+                <marker date="1564328259674" expanded="true" signature="236:296" ph="{...}" />
+                <marker date="1564328259674" expanded="true" signature="345:474" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -154,11 +161,11 @@
             <state relative-caret-position="390">
               <caret line="24" column="9" selection-start-line="10" selection-start-column="7" selection-end-line="24" selection-end-column="9" />
               <folding>
-                <marker date="1564327366639" expanded="true" signature="40:535" ph="{...}" />
-                <marker date="1564327366639" expanded="true" signature="73:85" ph="{...}" />
-                <marker date="1564327366639" expanded="true" signature="123:533" ph="{...}" />
-                <marker date="1564327366639" expanded="true" signature="261:335" ph="{...}" />
-                <marker date="1564327366639" expanded="true" signature="384:527" ph="{...}" />
+                <marker date="1564328250794" expanded="true" signature="40:537" ph="{...}" />
+                <marker date="1564328250794" expanded="true" signature="74:86" ph="{...}" />
+                <marker date="1564328250794" expanded="true" signature="125:535" ph="{...}" />
+                <marker date="1564328250794" expanded="true" signature="263:337" ph="{...}" />
+                <marker date="1564328250794" expanded="true" signature="386:529" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -181,6 +188,8 @@
     <setting file="file://$PROJECT_DIR$/BankAccountKata.Test/packages.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1586DF26-C456-4AAA-8B8A-7159F1B5CD5E/5f/d836ae86/TasksPacketHandler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BankAccountKata/Withdrawal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BankAccountKata/StatementPrinter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BankAccountKata.Test/StatementPrinterShould.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BankAccountKata/ISecuritySafe.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BankAccountKata/Money.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BankAccountKata/IStatementPrinter.cs" root0="FORCE_HIGHLIGHTING" />
@@ -190,12 +199,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/BankAccountKata/Deposit.cs" />
-        <option value="$PROJECT_DIR$/BankAccountKata/StatementList.cs" />
         <option value="$PROJECT_DIR$/BankAccountKata/Withdrawal.cs" />
         <option value="$PROJECT_DIR$/BankAccountKata/ISecuritySafe.cs" />
-        <option value="$PROJECT_DIR$/BankAccountKata.Test/BankAccountTest.cs" />
         <option value="$PROJECT_DIR$/BankAccountKata.Test/AccountShould.cs" />
         <option value="$PROJECT_DIR$/BankAccountKata/Account.cs" />
+        <option value="$PROJECT_DIR$/BankAccountKata/StatementList.cs" />
+        <option value="$PROJECT_DIR$/BankAccountKata.Test/BankAccountTest.cs" />
+        <option value="$PROJECT_DIR$/BankAccountKata.Test/StatementPrinterShould.cs" />
+        <option value="$PROJECT_DIR$/BankAccountKata/StatementPrinter.cs" />
       </list>
     </option>
   </component>
@@ -252,7 +263,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4168000" />
+    <option name="totallyTimeSpent" value="4719000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
@@ -292,10 +303,10 @@
           <line>16</line>
           <properties documentPath="$PROJECT_DIR$/BankAccountKata/StatementList.cs" initialLine="16">
             <startOffsets>
-              <option value="361" />
+              <option value="368" />
             </startOffsets>
             <endOffsets>
-              <option value="392" />
+              <option value="399" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="2" />
@@ -305,10 +316,10 @@
           <line>21</line>
           <properties documentPath="$PROJECT_DIR$/BankAccountKata/Deposit.cs" initialLine="17">
             <startOffsets>
-              <option value="407" />
+              <option value="409" />
             </startOffsets>
             <endOffsets>
-              <option value="435" />
+              <option value="437" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="3" />
@@ -318,10 +329,10 @@
           <line>23</line>
           <properties documentPath="$PROJECT_DIR$/BankAccountKata/Deposit.cs" initialLine="19">
             <startOffsets>
-              <option value="449" />
+              <option value="451" />
             </startOffsets>
             <endOffsets>
-              <option value="517" />
+              <option value="519" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="4" />
@@ -385,30 +396,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BankAccountKata/StatementList.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-          <folding>
-            <marker date="1564327509675" expanded="true" signature="6:52" ph="..." />
-            <marker date="1564327509675" expanded="true" signature="79:473" ph="{...}" />
-            <marker date="1564327509675" expanded="true" signature="112:471" ph="{...}" />
-            <marker date="1564327509675" expanded="true" signature="231:289" ph="{...}" />
-            <marker date="1564327509675" expanded="true" signature="338:465" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BankAccountKata/Deposit.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="24" column="9" selection-start-line="10" selection-start-column="7" selection-end-line="24" selection-end-column="9" />
           <folding>
-            <marker date="1564327366639" expanded="true" signature="40:535" ph="{...}" />
-            <marker date="1564327366639" expanded="true" signature="73:85" ph="{...}" />
-            <marker date="1564327366639" expanded="true" signature="123:533" ph="{...}" />
-            <marker date="1564327366639" expanded="true" signature="261:335" ph="{...}" />
-            <marker date="1564327366639" expanded="true" signature="384:527" ph="{...}" />
+            <marker date="1564328250794" expanded="true" signature="40:537" ph="{...}" />
+            <marker date="1564328250794" expanded="true" signature="74:86" ph="{...}" />
+            <marker date="1564328250794" expanded="true" signature="125:535" ph="{...}" />
+            <marker date="1564328250794" expanded="true" signature="263:337" ph="{...}" />
+            <marker date="1564328250794" expanded="true" signature="386:529" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -418,10 +415,10 @@
         <state relative-caret-position="100">
           <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
           <folding>
-            <marker date="1564327973592" expanded="true" signature="40:509" ph="{...}" />
-            <marker date="1564327973592" expanded="true" signature="82:507" ph="{...}" />
-            <marker date="1564327973592" expanded="true" signature="223:297" ph="{...}" />
-            <marker date="1564327973592" expanded="true" signature="346:501" ph="{...}" />
+            <marker date="1564328250770" expanded="true" signature="40:510" ph="{...}" />
+            <marker date="1564328250770" expanded="true" signature="83:508" ph="{...}" />
+            <marker date="1564328250770" expanded="true" signature="224:298" ph="{...}" />
+            <marker date="1564328250770" expanded="true" signature="347:502" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -437,44 +434,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BankAccountKata.Test/BankAccountTest.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="89" selection-start-line="14" selection-start-column="89" selection-end-line="14" selection-end-column="89" />
-          <folding>
-            <marker date="1564328028539" expanded="true" signature="6:51" ph="..." />
-            <marker date="1564328028539" expanded="true" signature="83:1424" ph="{...}" />
-            <marker date="1564328028539" expanded="true" signature="118:1043" ph="{...}" />
-            <marker date="1564328028539" expanded="true" signature="198:1037" ph="{...}" />
-            <marker date="1564328028539" expanded="true" signature="1098:1220" ph="{...}" />
-            <marker date="1564328028539" expanded="true" signature="1161:1214" ph="{...}" />
-            <marker date="1564328028539" expanded="true" signature="1267:1422" ph="{...}" />
-            <marker date="1564328028539" expanded="true" signature="1314:1334" ph="{...}" />
-            <marker date="1564328028539" expanded="true" signature="1383:1416" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BankAccountKata.Test/AccountShould.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-732">
-          <caret line="32" column="26" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="26" />
-          <folding>
-            <marker date="1564328060026" expanded="false" signature="6:91" ph="..." />
-            <marker date="1564328060026" expanded="true" signature="123:3218" ph="{...}" />
-            <marker date="1564328060026" expanded="true" signature="156:3216" ph="{...}" />
-            <marker date="1564328060026" expanded="true" signature="212:609" ph="{...}" />
-            <marker date="1564328060026" expanded="true" signature="669:1080" ph="{...}" />
-            <marker date="1564328060026" expanded="true" signature="1141:1537" ph="{...}" />
-            <marker date="1564328060026" expanded="true" signature="1609:2098" ph="{...}" />
-            <marker date="1564328060026" expanded="true" signature="2173:2675" ph="{...}" />
-            <marker date="1564328060026" expanded="true" signature="2751:2899" ph="{...}" />
-            <marker date="1564328060026" expanded="true" signature="2947:3046" ph="{...}" />
-            <marker date="1564328060026" expanded="true" signature="3108:3210" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BankAccountKata/Account.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -486,6 +445,80 @@
             <marker date="1564328111964" expanded="true" signature="540:641" ph="{...}" />
             <marker date="1564328111964" expanded="true" signature="694:802" ph="{...}" />
             <marker date="1564328111964" expanded="true" signature="842:922" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankAccountKata.Test/AccountShould.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="97" column="30" lean-forward="true" selection-start-line="97" selection-start-column="30" selection-end-line="97" selection-end-column="30" />
+          <folding>
+            <marker date="1564328250790" expanded="false" signature="6:91" ph="..." />
+            <marker date="1564328250790" expanded="true" signature="123:3221" ph="{...}" />
+            <marker date="1564328250790" expanded="true" signature="156:3219" ph="{...}" />
+            <marker date="1564328250790" expanded="true" signature="212:609" ph="{...}" />
+            <marker date="1564328250790" expanded="true" signature="669:1080" ph="{...}" />
+            <marker date="1564328250790" expanded="true" signature="1141:1537" ph="{...}" />
+            <marker date="1564328250790" expanded="true" signature="1609:2098" ph="{...}" />
+            <marker date="1564328250790" expanded="true" signature="2173:2675" ph="{...}" />
+            <marker date="1564328250790" expanded="true" signature="2753:2902" ph="{...}" />
+            <marker date="1564328250790" expanded="true" signature="2950:3049" ph="{...}" />
+            <marker date="1564328250790" expanded="true" signature="3111:3213" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankAccountKata/StatementList.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding>
+            <marker date="1564328259674" expanded="true" signature="6:52" ph="..." />
+            <marker date="1564328259674" expanded="true" signature="79:482" ph="{...}" />
+            <marker date="1564328259674" expanded="true" signature="112:480" ph="{...}" />
+            <marker date="1564328259674" expanded="true" signature="236:296" ph="{...}" />
+            <marker date="1564328259674" expanded="true" signature="345:474" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankAccountKata.Test/BankAccountTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="17" column="98" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="98" />
+          <folding>
+            <marker date="1564328333363" expanded="true" signature="6:51" ph="..." />
+            <marker date="1564328333363" expanded="true" signature="83:1247" ph="{...}" />
+            <marker date="1564328333363" expanded="true" signature="118:1043" ph="{...}" />
+            <marker date="1564328333363" expanded="true" signature="198:1037" ph="{...}" />
+            <marker date="1564328333363" expanded="true" signature="1090:1245" ph="{...}" />
+            <marker date="1564328333363" expanded="true" signature="1137:1157" ph="{...}" />
+            <marker date="1564328333363" expanded="true" signature="1206:1239" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankAccountKata.Test/StatementPrinterShould.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="45" lean-forward="true" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+          <folding>
+            <marker date="1564328600572" expanded="true" signature="54:406" ph="{...}" />
+            <marker date="1564328600572" expanded="true" signature="96:404" ph="{...}" />
+            <marker date="1564328600572" expanded="true" signature="171:398" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankAccountKata/StatementPrinter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding>
+            <marker date="1564328675830" expanded="true" signature="25:294" ph="{...}" />
+            <marker date="1564328675830" expanded="true" signature="81:292" ph="{...}" />
+            <marker date="1564328675830" expanded="true" signature="144:286" ph="{...}" />
           </folding>
         </state>
       </provider>

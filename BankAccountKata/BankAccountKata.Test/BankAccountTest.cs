@@ -23,14 +23,6 @@ namespace BankAccountKata.Test
         }
     }
 
-    public class StatementPrinter : IStatementPrinter
-    {
-        public string Print(StatementList statementList)
-        {
-            return string.Empty;
-        }
-    }
-
     public class SecuritySafe : ISecuritySafe
     {
         public void Add(Deposit deposit)

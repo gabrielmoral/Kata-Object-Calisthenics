@@ -2,6 +2,7 @@ namespace BankAccountKata
 {
     public interface IStatementPrinter
     {
-        string Print(StatementList statementList);
+        void Add(PrintableStatement statement);
+        string Print();
     }
 }

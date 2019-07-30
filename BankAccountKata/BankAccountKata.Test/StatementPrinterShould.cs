@@ -9,7 +9,7 @@ namespace BankAccountKata.Test
         public void PrintEmptyAccountIfNoStatements()
         {
             var statementPrinter= new StatementPrinter();
-            var result = statementPrinter.Print(new StatementList());
+            var result = statementPrinter.Print();
             Assert.That(result, Is.EqualTo("Date||Credit||Debit||Balance\n"));
         }
         
@@ -17,15 +17,33 @@ namespace BankAccountKata.Test
         public void PrintDeposit()
         {
             var statementPrinter= new StatementPrinter();
-            var statementList = new StatementList();
-            statementList.Add(
-                new Deposit(
-                    new Money(1000),
-                    DateTime.Parse("10-01-2012")));
-            
-            var result = statementPrinter.Print(statementList);
+            statementPrinter.Add(new PrintableStatement(NewDeposit(1000), new Money(1000)));
+
+            var result = statementPrinter.Print();
             Assert.That(result, Is.EqualTo("Date||Credit||Debit||Balance\n" +
                                            "10/01/2012||||1000||1000\n"));
         }
+        
+        [Test]
+        public void PrintSeveralDeposits()
+        {
+            var statementPrinter= new StatementPrinter();
+            statementPrinter.Add(new PrintableStatement(NewDeposit(1000), new Money(1000)));
+            statementPrinter.Add(new PrintableStatement(NewDeposit(1000), new Money(2000)));
+            
+            var result = statementPrinter.Print();
+            Assert.That(result, Is.EqualTo("Date||Credit||Debit||Balance\n" +
+                                           "10/01/2012||||1000||2000\n" +
+                                           "10/01/2012||||1000||1000\n"
+                                           ));
+        }
+        
+        private static Deposit NewDeposit(int amount)
+        {
+            return new Deposit(
+                new Money(amount),
+                DateTime.Parse("10-01-2012"));
+        }
+
     }
 }

@@ -12,7 +12,7 @@ namespace BankAccountKata
         {
             _securitySafe = securitySafe;
             _statementPrinter = statementPrinter;
-            _statementList = new StatementList();
+            _statementList = new StatementList(statementPrinter);
         }
 
         public void Deposit(Deposit deposit)
@@ -29,7 +29,7 @@ namespace BankAccountKata
 
         public string PrintStatement()
         {
-            return _statementPrinter.Print(_statementList);
+            return _statementPrinter.Print();
         }
     }
 }

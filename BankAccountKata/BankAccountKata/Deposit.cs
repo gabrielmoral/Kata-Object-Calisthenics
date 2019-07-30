@@ -4,29 +4,30 @@ namespace BankAccountKata
 {
     public interface IStatement
     {
+        Money Value { get; }
     }
 
     public class Deposit : IStatement
     {
-        private readonly Money _money;
         private readonly DateTime _when;
 
-        public Deposit(Money money, DateTime when)
+        public Deposit(Money value, DateTime when)
         {
-            _money = money;
+            Value = value;
             _when = when;
         }
+        public Money Value { get; }
 
         public override bool Equals(object obj)
         {
             var deposit = (Deposit) obj;
 
-            return deposit._money.Equals(_money) && deposit._when.Equals(_when);
+            return deposit.Value.Equals(Value) && deposit._when.Equals(_when);
         }
 
         public override string ToString()
         {
-            return $"{_when:d}||||{_money.ToString()}||{_money.ToString()}\n";
+            return $"{_when:d}||||{Value.ToString()}||";
         }
     }
 }

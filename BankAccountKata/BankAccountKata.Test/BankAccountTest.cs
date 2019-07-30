@@ -22,16 +22,4 @@ namespace BankAccountKata.Test
                 "10/01/2012||||1000||1000\n"));
         }
     }
-
-    public class SecuritySafe : ISecuritySafe
-    {
-        public void Add(Deposit deposit)
-        {
-        }
-
-        public void Take(Withdrawal withdrawal)
-        {
-            
-        }
-    }
 }

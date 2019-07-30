@@ -9,6 +9,16 @@ namespace BankAccountKata
             _amount = amount;
         }
         
+        public static Money operator+ (Money b, Money c)
+        {
+            return new Money(b._amount + c._amount);   
+        }
+        
+        public static Money operator- (Money b, Money c)
+        {
+            return new Money(b._amount - c._amount);   
+        }
+        
         public override bool Equals(object obj)
         {
             var money = (Money) obj;

@@ -4,20 +4,26 @@ namespace BankAccountKata
 {
     public class Withdrawal : IStatement
     {
-        private readonly Money _money;
         private readonly DateTime _when;
 
-        public Withdrawal(Money money, DateTime when)
+        public Withdrawal(Money value, DateTime when)
         {
-            _money = money;
+            Value = value;
             _when = when;
         }
 
+        public Money Value { get; }
+        
         public override bool Equals(object obj)
         {
             var withdrawal = (Withdrawal) obj;
 
-            return withdrawal._money.Equals(_money) && withdrawal._when.Equals(_when);
+            return withdrawal.Value.Equals(Value) && withdrawal._when.Equals(_when);
+        }
+
+        public override string ToString()
+        {
+            return $"{_when:d}||{Value.ToString()}||||";
         }
     }
 }
